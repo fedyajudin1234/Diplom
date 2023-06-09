@@ -1,0 +1,14 @@
+﻿@model HomeViewModel
+<h1>Доступные задания</h1>
+@if (ViewBag.IsAuthenticated)
+{
+    <h2>Задания, доступные для вас, @ViewBag.Name</h2>
+}
+<div class="row mt-5 mb-2">
+    @{
+        foreach(Aim aim in Model.avaliableAims)
+        {
+            @Html.Partial("AllAims",aim)
+        }
+    }
+</div>

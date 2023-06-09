@@ -1,0 +1,10 @@
+@model AimListViewModel
+<h1>Все задания</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach(Aim aim in Model.getAllAims)
+        {
+            @Html.Partial("AllAims",aim)
+        }
+    }
+</div>

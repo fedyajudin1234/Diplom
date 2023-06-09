@@ -1,0 +1,14 @@
+﻿@model AimImage
+<h1>Добавление изображения</h1>
+<form asp-controller="AimImage" asp-action="AddImage" method="post" enctype="multipart/form-data">
+    <h3>Выберите файл</h3>
+    <div>
+        <input type="file" name="formFile"/><br />
+        <p>
+            <button class="btn btn-outline-success" type="submit">Загрузить</button>
+        </p>
+    </div>
+    <p>
+        <button class="btn btn-outline-success" asp-controller="Admin" asp-action="Index">Назад</button>
+    </p>
+</form>

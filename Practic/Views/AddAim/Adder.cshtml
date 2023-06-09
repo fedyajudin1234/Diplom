@@ -1,0 +1,32 @@
+﻿@model AddAimViewModel
+<div class="row">
+    <h2>Добавление задания</h2>
+    <form asp-controller="AddAim" asp-action="Adder" method="post" class="form-horizontal">
+        <label asp-for="Name">Название задания</label>
+        <div class="code-block">
+            <input asp-for="Name" class="form-control"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <label asp-for="TextField">Пояснение</label>
+        <div class="code-block">
+            <textarea asp-for="TextField" class="form-control text_size"></textarea>
+            <span asp-validation-for="TextField" class="text-danger"></span>
+        </div>
+        <label asp-for="AimTextField">Цель</label>
+        <div class="code-block">
+            <textarea asp-for="AimTextField" class="form-control text_size"></textarea>
+            <span asp-validation-for="AimTextField" class="text-danger"></span>
+        </div>
+        <label asp-for="Image">Изображение(путь)</label>
+        <div class="code-block">
+            <input asp-for="Image" class="form-control"/>
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+        <label asp-for="category.CategoryName">Раздел задания(первая или вторая часть)</label>
+        <div class="code-block">
+            <input asp-for="category.CategoryName" class="form-control"/>
+            <span asp-validation-for="category.CategoryName" class="text-danger"></span>
+        </div>
+        <input class="btn btn-success" type="submit" value="Добавить" asp-controller="AddAim" asp-action="Adder"/>
+    </form>
+</div>

@@ -1,0 +1,7 @@
+﻿@model Aim
+<div class="col-lg-4">
+   <img class="img-thumbnail" src="@Model.Image" alt="@Model.Name"/>
+   <h2>Задание: @Model.Name</h2>
+   <p>Доступность: @Model.Avaliable.ToString()</p>
+   <p><a class="btn btn-warning" asp-controller="AimMaker" asp-action="StartAim" asp-route-id="@Model.Id">Начать</a></p>
+</div>

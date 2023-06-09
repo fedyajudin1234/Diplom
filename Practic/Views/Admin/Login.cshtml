@@ -1,0 +1,22 @@
+﻿@model LoginViewModel
+<h1>Войти</h1>
+<form asp-controller="Admin" asp-action="Login" method="post">
+    <div asp-validation-summary="All"></div>
+    <input hidden asp-for="ReturnUrl"/>
+    <div>
+        <lable>Пользователь</lable>
+        <input asp-for="UserName"/>
+        <span asp-validation-for="UserName"></span>
+    </div>
+    <div>
+        <lable>Пароль</lable>
+        <input asp-for="Password"/>
+        <span asp-validation-for="Password"></span>
+    </div>
+    <p>
+        <button class="btn btn-outline-success" type="submit">Войти</button>
+    </p>
+    <p>
+        <button class="btn btn-outline-success" asp-controller="AddUser" asp-action="Registration">Регистрация</button>
+    </p>
+</form>

@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\array.jpg",
+      "PackagePath": "staticwebassets\\img\\array.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\class.jpg",
+      "PackagePath": "staticwebassets\\img\\class.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\cycles.jpg",
+      "PackagePath": "staticwebassets\\img\\cycles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\datatypes.jpg",
+      "PackagePath": "staticwebassets\\img\\datatypes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\do-while.jpg",
+      "PackagePath": "staticwebassets\\img\\do-while.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\double_array.jpg",
+      "PackagePath": "staticwebassets\\img\\double_array.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\for.jpg",
+      "PackagePath": "staticwebassets\\img\\for.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\function.jpg",
+      "PackagePath": "staticwebassets\\img\\function.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\ifelse.jpg",
+      "PackagePath": "staticwebassets\\img\\ifelse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\integer.jpg",
+      "PackagePath": "staticwebassets\\img\\integer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\jugged_array.jpg",
+      "PackagePath": "staticwebassets\\img\\jugged_array.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\mathoperations.jpg",
+      "PackagePath": "staticwebassets\\img\\mathoperations.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\modificator.jpg",
+      "PackagePath": "staticwebassets\\img\\modificator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\polymorfizm.jpg",
+      "PackagePath": "staticwebassets\\img\\polymorfizm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\switch.jpg",
+      "PackagePath": "staticwebassets\\img\\switch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\img\\while.jpg",
+      "PackagePath": "staticwebassets\\img\\while.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Fedor\\Desktop\\C#\\Practic\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Practic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Practic.props",
+      "PackagePath": "build\\Practic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Practic.props",
+      "PackagePath": "buildMultiTargeting\\Practic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Practic.props",
+      "PackagePath": "buildTransitive\\Practic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

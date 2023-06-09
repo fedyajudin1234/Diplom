@@ -1,0 +1,12 @@
+﻿@model HomeViewModel
+<h1>Выполненные задания</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach(Aim aim in Model.unavaliableAims)
+        {
+            @Html.Partial("AllAims",aim)
+        }
+    }
+</div>
+<a class="btn btn-danger mb-5" asp-controller="Home" asp-action="Index">На главную</a>
+<a class="btn btn-danger mb-5" asp-controller="Admin" asp-action="LogOut">Выйти</a>
